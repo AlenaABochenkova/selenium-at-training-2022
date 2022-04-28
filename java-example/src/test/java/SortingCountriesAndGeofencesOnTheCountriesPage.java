@@ -61,7 +61,7 @@ public class SortingCountriesAndGeofencesOnTheCountriesPage {
                 int size2 = zone2.size() - 1;
                 List<String> all_elements = new ArrayList<>();
                 for (int j = 0; j < size2; j++) {
-                    zone2 = driver.findElements(By.xpath("//table[@id='table-zones']//td[3]"));
+
                     all_elements.add(zone2.get(j).getText());
                 }
                 List<String> all_elements_sort = new ArrayList<>(all_elements);

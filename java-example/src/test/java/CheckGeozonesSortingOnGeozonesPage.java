@@ -39,7 +39,7 @@ public class CheckGeozonesSortingOnGeozonesPage {
             int a = zone.size();
             List<String> all_countries = new ArrayList<>();
             for (int j=0; j < a; j++) {
-                zone = driver.findElements(By.xpath("//table[@id='table-zones']//td[3]//select[contains(@name,'zones[')]//option[@selected]"));
+               
                 all_countries.add(zone.get(j).getText());
             }
             List<String> sorted_countries = new ArrayList<>(all_countries);
