@@ -39,7 +39,7 @@ public class CheckGeozonesSortingOnGeozonesPage {
             int a = zone.size();
             List<String> all_countries = new ArrayList<>();
             for (int j=0; j < a; j++) {
-               
+
                 all_countries.add(zone.get(j).getText());
             }
             List<String> sorted_countries = new ArrayList<>(all_countries);

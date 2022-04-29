@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VerifyThatTheCorrectProductPageOpens" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-04-29T10:08:21" hostname="ID400241" time="19.527">
+  <properties/>
+  <testcase name="promotionPriceBoldAndRed()" classname="VerifyThatTheCorrectProductPageOpens" time="6.376"/>
+  <testcase name="regularPriceStrikethroughAndGray()" classname="VerifyThatTheCorrectProductPageOpens" time="2.484"/>
+  <testcase name="pricesAreTheSameOnTheHomepageAndOnTheProductPage()" classname="VerifyThatTheCorrectProductPageOpens" time="2.404"/>
+  <testcase name="promotionalPriceIsBiggerThanRegularPrice()" classname="VerifyThatTheCorrectProductPageOpens" time="4.09"/>
+  <testcase name="theProductNameOnTheMainPageAndTheProductPageAreTheSame()" classname="VerifyThatTheCorrectProductPageOpens" time="4.168"/>
+  <system-out><![CDATA[Цвет акционной цены на главной странице красный
+Шрифт акционной цены на главной странице жирный
+Цвет акционной цены на странице продукта красный
+Шрифт акционной цены на странице продукта: жирный
+Цвет обычной цены серый
+Шрифт обычной цены зачеркнутый
+Цвет обычной цены на странице продукта серый
+Шрифт обычной цены на странице продукта зачеркнутый
+Обычная цена на главной странице и на странице товара совпадают
+Акционная цена на главной странице и на странице товара совпадают
+Акционная цена больше, чем обычная цена на главной странице 
+Акционная цена больше, чем обычная цена на странице продукта
+Текст названия товара на главной странице и на странице товара совпадает
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 52106
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651226904.532][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+апр. 29, 2022 2:08:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 29, 2022 2:08:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+апр. 29, 2022 2:08:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+апр. 29, 2022 2:08:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 62962
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651226908.628][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+апр. 29, 2022 2:08:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 29, 2022 2:08:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+апр. 29, 2022 2:08:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+апр. 29, 2022 2:08:28 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 54405
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651226911.185][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+апр. 29, 2022 2:08:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 29, 2022 2:08:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+апр. 29, 2022 2:08:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+апр. 29, 2022 2:08:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 62523
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651226913.724][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+апр. 29, 2022 2:08:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 29, 2022 2:08:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+апр. 29, 2022 2:08:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+апр. 29, 2022 2:08:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 53468
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651226917.540][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+апр. 29, 2022 2:08:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+апр. 29, 2022 2:08:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
+апр. 29, 2022 2:08:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 100.
+апр. 29, 2022 2:08:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+</testsuite>
