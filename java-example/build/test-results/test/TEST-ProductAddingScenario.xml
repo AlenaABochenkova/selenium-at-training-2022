@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LinksOpenInANewWindow" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-02T10:59:06" hostname="ID400241" time="17.538">
+<testsuite name="ProductAddingScenario" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-04T09:33:27" hostname="ID400241" time="87.619">
   <properties/>
-  <testcase name="linksOpenInANewWindow()" classname="LinksOpenInANewWindow" time="17.538"/>
+  <testcase name="productAddingScenario()" classname="ProductAddingScenario" time="87.619"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 54550
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 64840
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1651489148.977][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
-мая 02, 2022 2:59:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1651656811.001][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+мая 04, 2022 1:33:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-мая 02, 2022 2:59:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 04, 2022 1:33:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: a no-op implementation
-мая 02, 2022 2:59:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 04, 2022 1:33:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Unable to find CDP implementation matching 100.
-мая 02, 2022 2:59:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+мая 04, 2022 1:33:31 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
 </testsuite>

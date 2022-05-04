@@ -4,11 +4,15 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.File;
 import java.time.Duration;
+import java.util.Date;
+import java.util.List;
+
 import static java.lang.Thread.sleep;
 
 public class ProductAddingScenario {
@@ -42,7 +46,8 @@ public class ProductAddingScenario {
         driver.findElement(By.linkText("Add New Product")).click();
         driver.findElement(By.xpath("//input[@type='radio' and @value=1]")).click();
         driver.findElement(By.xpath("//input[@type='checkbox' and @value=1]")).click();
-        driver.findElement(By.xpath("//input[@name = 'name[en]']")).sendKeys("Phoebe Buffay Duck");
+        String name = "Phoebe Buffay Duck" + new Date().getTime();
+        driver.findElement(By.xpath("//input[@name = 'name[en]']")).sendKeys(name);
         driver.findElement(By.xpath("//input[@name = 'code']")).sendKeys("Phoebe Buffay Duck");
         Select d_category = new Select(driver.findElement(By.xpath("//select[@name='default_category_id']")));
         d_category.selectByVisibleText("Rubber Ducks");
@@ -79,7 +84,7 @@ public class ProductAddingScenario {
         driver.findElement(By.xpath("//button[@name='save']")).click();
 
         //Проверка наличия продукта в админке
-        driver.findElement(By.linkText("Phoebe Buffay Duck")).click();
+        driver.findElement(By.linkText(name)).click();
         safeSleep (1000);
         //Проверка наличия продукта в магазине
         driver.navigate().to("http://localhost/litecart/en/");
